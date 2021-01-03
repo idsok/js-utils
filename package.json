@@ -1,0 +1,32 @@
+{
+    "name": "js-utils",
+    "description": "Utilitaires javascript",
+    "version": "1.0.0",
+    "author": "Idrissa SOKHONA <rokysaroi@gmail.com>",
+    "license": "MIT",
+    "main": "./dist/index.js",
+    "dependencies": {
+        "underscore": "*"
+    },
+    "devDependencies": {
+        "@types/node": "latest",
+        "del": "latest",
+        "dts-bundle": "latest",
+        "gulp": "latest",
+        "gulp-shell": "latest",
+        "gulp-sourcemaps": "latest",
+        "gulp-typescript": "latest",
+        "merge2": "latest",
+        "mocha": "latest",
+        "run-sequence": "latest",
+        "typedoc": "latest",
+        "typescript": "next",
+        "typings": "latest"
+    },
+    "typescript": {
+        "definition": "dist/definitions/index.d.ts"
+    },
+    "scripts": {
+        "test": "node_modules/.bin/mocha  test/**/*.test.js"
+    }
+}
